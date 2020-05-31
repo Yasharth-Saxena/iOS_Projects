@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+target 'FinalAssignmentApp' do
+  
+  use_frameworks!
+
+  pod 'SDWebImage'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+
+end
