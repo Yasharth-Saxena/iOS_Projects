@@ -7,5 +7,7 @@ target 'FinalAssignmentApp' do
   pod 'SDWebImage'
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
 end

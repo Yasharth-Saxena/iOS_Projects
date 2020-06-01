@@ -57,7 +57,7 @@ extension CountryViewController: UITableViewDataSource, UITableViewDelegate {
         let countryName = countryArray[indexPath.row].alpha3Code
         let countryCode = countryArray[indexPath.row].alpha2Code
         countryDelegate?.didUpdateCountry(countryName, code: countryCode)
-        self.dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
 }
 

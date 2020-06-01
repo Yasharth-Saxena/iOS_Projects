@@ -39,6 +39,6 @@ extension LanguageViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         languageDelegate?.didUpdateLanguage(AppModel.shared.languageArray[indexPath.row])
-        dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
 }
