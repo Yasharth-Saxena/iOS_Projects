@@ -48,10 +48,6 @@ class LoginViewController: UIViewController {
     
     }
     
-    @IBAction func crossTapped(_ sender: UIButton) {
-        navigationController?.popViewController(animated: true)
-    }
-    
     private func validateTextFields() -> String? {
         
         // checking if the text fields are empty

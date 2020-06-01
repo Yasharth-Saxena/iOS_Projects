@@ -26,10 +26,6 @@ class SignUpViewController: UIViewController {
         
     }
     
-    @IBAction func dismissTapped(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
-    }
-    
     @IBAction func signUpTapped(_ sender: UIButton) {
         let error = validateTextFields()
         

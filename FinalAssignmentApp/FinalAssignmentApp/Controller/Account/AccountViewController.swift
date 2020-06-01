@@ -121,7 +121,9 @@ extension AccountViewController: UITableViewDataSource, UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
         switch indexPath.section {
         case 0:
-            break
+            if indexPath.row == 0 {
+                performSegue(withIdentifier: "locationSegue", sender: self)
+            }
         case 1:
             if indexPath.row == 0 {
                 performSegue(withIdentifier: "countrySegue", sender: self)
