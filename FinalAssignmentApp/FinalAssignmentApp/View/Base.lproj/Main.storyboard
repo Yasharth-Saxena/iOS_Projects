@@ -244,7 +244,7 @@
                         <outlet property="userImage" destination="anx-lh-AOq" id="pdQ-PG-yAU"/>
                         <segue destination="lfD-cY-NXa" kind="show" identifier="countrySegue" id="jdN-9O-d9n"/>
                         <segue destination="E1O-78-SUl" kind="show" identifier="languageSegue" id="Tdb-mJ-m2x"/>
-                        <segue destination="hYM-gT-tGP" kind="show" id="m9C-vE-cts"/>
+                        <segue destination="hYM-gT-tGP" kind="show" identifier="locationSegue" id="m9C-vE-cts"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
