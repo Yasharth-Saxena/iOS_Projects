@@ -316,21 +316,21 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account? Join us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tF-i5-uBV">
-                                <rect key="frame" x="94.333333333333329" y="254.00000000000003" width="225.33333333333337" height="19.333333333333343"/>
+                                <rect key="frame" x="94.333333333333329" y="219" width="225.33333333333337" height="19.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cicada" translatesAutoresizingMaskIntoConstraints="NO" id="y0G-ok-FLg">
-                                <rect key="frame" x="57" y="74" width="300" height="160"/>
+                                <rect key="frame" x="132" y="64" width="150" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="5tW-PF-hxb"/>
-                                    <constraint firstAttribute="width" constant="300" id="TI4-Mi-g9h"/>
+                                    <constraint firstAttribute="height" constant="150" id="5tW-PF-hxb"/>
+                                    <constraint firstAttribute="width" constant="150" id="TI4-Mi-g9h"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="LjZ-UU-1wI">
-                                <rect key="frame" x="191" y="281" width="32" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="LjZ-UU-1wI">
+                                <rect key="frame" x="193" y="248.33333333333334" width="28" height="14.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -339,12 +339,12 @@
                         <constraints>
                             <constraint firstItem="9ZL-Nh-CGE" firstAttribute="centerX" secondItem="yFz-75-dQC" secondAttribute="centerX" id="0t1-Dt-l0R"/>
                             <constraint firstItem="y0G-ok-FLg" firstAttribute="centerX" secondItem="yFz-75-dQC" secondAttribute="centerX" id="Fsp-EP-ocf"/>
-                            <constraint firstItem="LjZ-UU-1wI" firstAttribute="top" secondItem="0tF-i5-uBV" secondAttribute="bottom" constant="7.6666666666666856" id="GFE-Wj-v5q"/>
                             <constraint firstItem="c2V-Ss-qdZ" firstAttribute="bottom" secondItem="9ZL-Nh-CGE" secondAttribute="bottom" constant="40" id="HRU-Lv-7Xi"/>
                             <constraint firstItem="Kza-Ws-oMA" firstAttribute="centerX" secondItem="yFz-75-dQC" secondAttribute="centerX" id="ZNW-R2-rij"/>
-                            <constraint firstItem="y0G-ok-FLg" firstAttribute="top" secondItem="c2V-Ss-qdZ" secondAttribute="top" constant="30" id="htr-wv-CHT"/>
-                            <constraint firstItem="0tF-i5-uBV" firstAttribute="top" secondItem="y0G-ok-FLg" secondAttribute="bottom" constant="20" id="jcr-5g-DUA"/>
-                            <constraint firstItem="LjZ-UU-1wI" firstAttribute="centerX" secondItem="yFz-75-dQC" secondAttribute="centerX" id="rIm-qX-IhF"/>
+                            <constraint firstItem="y0G-ok-FLg" firstAttribute="top" secondItem="c2V-Ss-qdZ" secondAttribute="top" constant="20" id="htr-wv-CHT"/>
+                            <constraint firstItem="LjZ-UU-1wI" firstAttribute="centerX" secondItem="yFz-75-dQC" secondAttribute="centerX" id="i2B-30-IUN"/>
+                            <constraint firstItem="0tF-i5-uBV" firstAttribute="top" secondItem="y0G-ok-FLg" secondAttribute="bottom" constant="5" id="jcr-5g-DUA"/>
+                            <constraint firstItem="LjZ-UU-1wI" firstAttribute="top" secondItem="0tF-i5-uBV" secondAttribute="bottom" constant="10" id="pe4-cY-Vd8"/>
                             <constraint firstItem="9ZL-Nh-CGE" firstAttribute="top" secondItem="Kza-Ws-oMA" secondAttribute="bottom" constant="30" id="vuo-wD-nYk"/>
                             <constraint firstItem="0tF-i5-uBV" firstAttribute="centerX" secondItem="yFz-75-dQC" secondAttribute="centerX" id="x32-6n-P6A"/>
                         </constraints>
@@ -361,7 +361,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Clj-eZ-Pc0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3567" y="425"/>
+            <point key="canvasLocation" x="3566.666666666667" y="424.72826086956525"/>
         </scene>
         <!--Location-->
         <scene sceneID="c66-gE-N4m">
@@ -431,11 +431,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cicada" translatesAutoresizingMaskIntoConstraints="NO" id="gM4-nN-1gY">
-                                <rect key="frame" x="57" y="104" width="300" height="160"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cicada" translatesAutoresizingMaskIntoConstraints="NO" id="gM4-nN-1gY">
+                                <rect key="frame" x="132" y="74" width="150" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="Nn0-MG-KOs"/>
-                                    <constraint firstAttribute="width" constant="300" id="oF3-sL-9YA"/>
+                                    <constraint firstAttribute="height" constant="150" id="Nn0-MG-KOs"/>
+                                    <constraint firstAttribute="width" constant="150" id="oF3-sL-9YA"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKd-h3-Nni">
@@ -453,13 +453,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please login to access your account " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="oNh-av-owU">
-                                <rect key="frame" x="59.666666666666657" y="294" width="294.66666666666674" height="24.666666666666686"/>
+                                <rect key="frame" x="59.666666666666657" y="253.99999999999997" width="294.66666666666674" height="24.666666666666657"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="highlightedColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cf9-Hu-yLh">
-                                <rect key="frame" x="57" y="418.66666666666669" width="300" height="108.00000000000006"/>
+                                <rect key="frame" x="57" y="378.66666666666669" width="300" height="108"/>
                                 <subviews>
                                     <textField opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K6k-id-iUt">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
@@ -482,9 +482,9 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="fT3-uz-Ymp">
-                                <rect key="frame" x="190" y="326" width="34" height="20.666666666666686"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="fT3-uz-Ymp">
+                                <rect key="frame" x="194.66666666666666" y="286" width="25" height="15.333333333333314"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="11"/>
                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="highlightedColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
@@ -500,7 +500,7 @@
                             <constraint firstItem="ekJ-ju-5gi" firstAttribute="bottom" secondItem="nKd-h3-Nni" secondAttribute="bottom" constant="40" id="VKq-OK-Ulz"/>
                             <constraint firstItem="oNh-av-owU" firstAttribute="top" secondItem="gM4-nN-1gY" secondAttribute="bottom" constant="30" id="Xnx-0e-ej0"/>
                             <constraint firstItem="Cf9-Hu-yLh" firstAttribute="top" secondItem="oNh-av-owU" secondAttribute="bottom" constant="100" id="bpd-MQ-bDp"/>
-                            <constraint firstItem="gM4-nN-1gY" firstAttribute="top" secondItem="ekJ-ju-5gi" secondAttribute="top" constant="60" id="i9Z-e4-UjF"/>
+                            <constraint firstItem="gM4-nN-1gY" firstAttribute="top" secondItem="ekJ-ju-5gi" secondAttribute="top" constant="30" id="i9Z-e4-UjF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ekJ-ju-5gi"/>
                     </view>

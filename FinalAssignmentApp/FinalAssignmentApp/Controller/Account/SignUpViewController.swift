@@ -24,6 +24,10 @@ class SignUpViewController: UIViewController {
         // hide the error label as soon as the view loads up
         errorLabel.alpha = 0
         
+        // sets the delegate of the textFields
+        setupTextFields()
+        
+        
     }
     
     @IBAction func signUpTapped(_ sender: UIButton) {
@@ -74,7 +78,7 @@ class SignUpViewController: UIViewController {
         
         if AppModel.isPasswordValid(clearPassword) == false {
             // password isn't secure enough
-            return "Please ensure that your password is atleast 8 characters long, has atleast one special character and a number"
+            return "Password should have 8 characters, 1 number and a special character"
         }
         
         
@@ -93,5 +97,19 @@ class SignUpViewController: UIViewController {
         view.window?.makeKeyAndVisible()
         
     }
+    
+    private func setupTextFields() {
+        firstNameTextField.delegate = self
+        lastNameTextField.delegate = self
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+    }
 
+}
+
+extension SignUpViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }

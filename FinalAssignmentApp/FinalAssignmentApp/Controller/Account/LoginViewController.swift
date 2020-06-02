@@ -21,6 +21,9 @@ class LoginViewController: UIViewController {
         // hide the error label when the view loads up
         errorLabel.alpha = 0
         
+        // sets the LoginViewController as the delegate of the textFields
+        setupTextFields()
+        
     }
     
     @IBAction func loginTapped(_ sender: UIButton) {
@@ -73,6 +76,18 @@ class LoginViewController: UIViewController {
         
     }
     
+    private func setupTextFields() {
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+    }
     
     
+    
+}
+
+extension LoginViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }
